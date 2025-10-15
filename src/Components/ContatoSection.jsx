@@ -66,13 +66,19 @@ export const ContatoSection = () => {
             <div className="pt-1 mb-2">
               <h4 className="font-medium mb-4"> Redes Socias</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/yuri-c-8279a01b0/"
+                  target="_blank"
+                >
                   <Linkedin className="hover:text-primary" />
                 </a>
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.instagram.com/pocoyo_galaxy/"
+                  target="_blank"
+                >
                   <Instagram className="hover:text-primary" />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://github.com/BobTheConstructor" target="_blank">
                   <Github className="hover:text-primary" />
                 </a>
               </div>

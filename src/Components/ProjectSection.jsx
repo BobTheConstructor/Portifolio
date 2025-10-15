@@ -12,18 +12,10 @@ const projects = [
   },
   {
     id: 2,
-    title: "ooooooooohhhh aiaiaiai",
-    description: "a que viria um lore impsun pra descrever o bgl",
+    title: "Projeto Em desenvolvimento",
+    description: "Futuros projetos que irão ser aprensetados aqui",
     image: null,
-    tags: ["React", "TailwindCSS", "supabase"],
-    gitUrl: "#",
-  },
-  {
-    id: 3,
-    title: "oouh mulher",
-    description: "a que viria um lore impsun pra descrever o bgl",
-    image: null,
-    tags: ["React", "TailwindCSS", "supabase"],
+    tags: ["React"],
     gitUrl: "#",
   },
 ];
@@ -33,9 +25,9 @@ export const ProjectSection = () => {
     <section id="projetos" className="py-24 px-4 bgsection">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
-          Projetos <span className="text-primary"> Desenvolvidos</span>
+          Projetos em<span className="text-primary"> desenvolvimento</span>
         </h2>
-        <div className="grid xl:grid-cols-3 lg:grid-cols-2 xl:gap-50 lg:gap-15 justify-items-center">
+        <div className="grid xl:grid-cols-3 lg:grid-cols-2 gap-5 xl:gap-50 lg:gap-20 justify-items-center">
           {projects.map((project, key) => (
             <a
               key={key}
@@ -105,7 +97,7 @@ export const ProjectSection = () => {
       <div className="text-center mt-12 ">
         <a
           className="cosmic-button w-fit flex items-center mx-auto gap-2"
-          href="#"
+          href="https://github.com/BobTheConstructor"
           target="_blank"
         >
           <span className="contornotexto">Check My Github</span>{" "}

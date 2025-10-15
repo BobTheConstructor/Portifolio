@@ -32,8 +32,8 @@ export const TrocaTema = () => {
     <button
       onClick={trocaTema}
       className={cn(
-        "fixed max-sm:hidden top-3 right-5 z-50 p-2 rounded-full",
-        "transition-colors duration-300 focus:outlin-hidden"
+        "transition-colors duration-300 focus:outlin-hidden",
+        "max-md:pt-30"
       )}
     >
       {" "}

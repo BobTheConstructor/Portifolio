@@ -15,31 +15,38 @@ export const HeroSection = () => {
           {/*testes foram feitos */}
           <div className="flex items-center justify-center p-1">
             <div className="w-max">
-              <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-foreground pr-1 text-5xl font-semibold text-primary ">
+              <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-foreground pr-1 text-4xl md:text-5xl font-semibold text-primary ">
                 FullStack Developer
               </h1>
             </div>
           </div>
           {/* testes foram encerrados */}
-          <button className="cosmic-button w-fit flex items-center mx-auto gap-2">
+          <a
+            href="https://drive.google.com/file/d/10XwQ2EsohzvgfbFOaTxNDUnIpRkNSe7K/view?usp=sharing"
+            target="_blank"
+            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+          >
             <p className="contornotexto">Curriculo</p>
             <FileDown size={20} className="contornotexto" />
-          </button>
+          </a>
           {/* links */}
           <div className="flex space-x-15 justify-center">
-            <a href="#" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/yuri-c-8279a01b0/"
+              target="_blank"
+            >
               <Linkedin
                 size={35}
                 className="border-1 p-1 border-blue-400 rounded-xl hover:border-foreground hover:bg-blue-400 text-blue-400 hover:bg-blue-400 hover:text-foreground"
               />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.instagram.com/pocoyo_galaxy/" target="_blank">
               <Instagram
                 size={35}
                 className="border-1 p-1 hover:bg-purple-500 rounded-xl hover:border-foreground border-purple-500 text-purple-500 hover:text-foreground hover:bg-purple-500"
               />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://github.com/BobTheConstructor" target="_blank">
               <Github
                 size={35}
                 className="border-1 p-1 border-gray-400 rounded-xl hover:border-foreground hover:bg-gray-400 text-gray-400 hover:text-foreground hover:bg-gray-400"

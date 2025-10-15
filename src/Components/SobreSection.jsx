@@ -10,7 +10,11 @@ export const SobreSetcion = () => {
 
         <div className="grid grid-rows md:grid-cols-2 gap-12 items-center">
           <div className="space-y-1">
-            <img className="h-50 w-50 border-white place-self-center border-2 rounded-full"></img>
+            <img
+              src={"Perfil/Perfil.png"}
+              alt="Perfil"
+              className="h-50 w-50 border-primary/30 place-self-center border-1 rounded-full"
+            />
 
             <p className="text-muted-foreground p-10 w-full text-center">
               Comecei minha jornada na programação em 2020 e, desde então, venho
